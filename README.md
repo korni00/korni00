@@ -1,7 +1,6 @@
+
+<p align="center"><img src="https://i.imgur.com/89JT8ql.gif"></p>
 <h3 align="center">Frontend dev</h3>
-
-
-<p align="right"><img src="https://i.imgur.com/89JT8ql.gif"></p>
 <h3 align="left">Discord:</h3>
 <p align="left">
 <a href="https://discord.gg/kornik#8150" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="kornik#8150" height="30" width="40" /></a>
