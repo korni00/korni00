@@ -1,4 +1,4 @@
-<a href="korni00.vercel.app"> <h1>💚 Personal web</h1></a>
+ <h1><a href="korni00.vercel.app">💚 Personal web</a></h1>
 
 <a href="https://github.com/korni00#languages"> 
 <h3 align="left">Languages</h3>
