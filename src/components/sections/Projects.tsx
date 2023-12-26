@@ -16,6 +16,7 @@ export const Projects = () => {
   const githubApiUrl = `https://api.github.com/users/korni00/repos`;
 
   const [projects, setProjects] = useState<GitHubRepo[]>([]);
+  const [creationDate, setCreationDate] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -29,6 +30,7 @@ export const Projects = () => {
       .catch((error) =>
         console.error("Error fetching GitHub repositories:", error),
       );
+    setCreationDate(formatDate("2023-10-09"));
   }, []);
 
   const formatDate = (dateString: string) => {
@@ -92,6 +94,23 @@ export const Projects = () => {
                   </Card>
                 </Link>
               ))}
+          <Link className=" p-0" href="https://www.agrogust.pl">
+            <Card className="p-6">
+              <CardHeader className="p-0">
+                <h2 className="text-xl font-bold">Agrogust</h2>
+              </CardHeader>
+              <CardContent className="flex flex-col items-start justify-end p-0">
+                <p className=" w-full overflow-hidden text-ellipsis whitespace-nowrap text-gray-500">
+                  Showcase website for a construction company
+                </p>
+                <div className="flex w-full items-end justify-between">
+                  <p className="mt-2 text-gray-400">Created: {creationDate}</p>
+
+                  <p>Typescript + Next.js</p>
+                </div>
+              </CardContent>
+            </Card>
+          </Link>
         </div>
       </div>
     </section>

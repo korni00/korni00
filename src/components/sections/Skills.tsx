@@ -68,8 +68,8 @@ const skillsList: Skill[] = [
 
 export const Skills = () => {
   return (
-    <section className="w-full animate-start-bottom " id="skills">
-      <div className=" px-4 md:px-6">
+    <section className="w-full animate-start-bottom" id="skills">
+      <div className="px-4 md:px-6">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
           Skills
         </h1>
@@ -78,11 +78,8 @@ export const Skills = () => {
         </p>
         <div className="flex flex-wrap justify-center gap-4 sm:justify-center md:justify-start lg:justify-start xl:justify-start 2xl:justify-start">
           {skillsList.map((skill, index) => (
-            <Link href={skill.link}>
-              <Card
-                key={index}
-                className="flex flex-col items-center p-4 transition-all hover:scale-100 lg:scale-105 xl:scale-105 2xl:scale-105"
-              >
+            <Link key={index} href={skill.link}>
+              <Card className="flex flex-col items-center p-4 transition-all hover:scale-100 lg:scale-105 xl:scale-105 2xl:scale-105">
                 <Badge
                   variant="outline"
                   className={`flex min-w-[80px] max-w-[80px] items-center justify-center px-2 py-1 ${skill.color}`}
@@ -90,7 +87,7 @@ export const Skills = () => {
                   {skill.name}
                 </Badge>
                 <div className="ml-2 flex items-center">
-                  {[...Array(5)].map((i: number) => (
+                  {[...Array(5)].map((_, i) => (
                     <span
                       key={i}
                       style={{
