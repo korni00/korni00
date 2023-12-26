@@ -1,3 +1,5 @@
+<a href="korni00.vercel.app">- 💚 Personal web</a>
+
 <a href="https://github.com/korni00#languages"> 
 <h3 align="left">Languages</h3>
 
@@ -57,8 +59,9 @@ Best react framework, serverless and easy-to-use hard-to-master
 <a href="https://github.com/korni00/agrogust">- Agrogust</a>
 The project is a dynamic website built with Next.js 13.5, featuring a custom API that provides information about products. It is designed for effective presentation and sale of these products to customers.
 <br />
-<a href="https://github.com/korni00/vikop">- Vikop<a>
+<a href="https://github.com/korni00/vikop">- Vikop</a>
 A simple crud design with the ability to add posts on tags, and profiles of users who can follow each other.
+<br />
 
 <p align="center">
 <img src="https://media.discordapp.net/attachments/1048729482627907624/1154126339985641482/buh.gif"></img>
